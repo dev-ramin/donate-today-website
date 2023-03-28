@@ -146,4 +146,5 @@ footer h1{
 }
 .container-flex img{
     width: 80%;
+    border-radius: 5px;
 }
