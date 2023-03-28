@@ -6,3 +6,99 @@
     text-decoration: none;
     list-style: none;
 }
+.banner-top{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.content{
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    margin-bottom: 20px;
+    padding: 10px 0px;
+}
+.link-button{
+    color: #fff;
+    background-color: red;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+.link-button:hover{
+    color: #fff;
+    font-weight: 700;
+    background-color: green;
+    transition: .4s;
+}
+.content-two{
+    color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.content-two h1{
+    font-size: 50px;
+}
+.content-two p{
+    margin-bottom: 30px;
+    padding: 10px 0px;
+}
+.flexible-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.line-box{
+    margin-left: 10rem;
+}
+.card{
+    padding: 20px 60px;
+    background-color: rgb(221, 218, 218);
+}
+.card:nth-child(2){
+    color: red;
+}
+.middle-section{
+    margin-bottom: 60px;
+}
+.Taka{
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 5px;
+}
+.Taka h1{
+    margin-bottom: 10px;
+}
+hr{
+    margin-bottom: 40px;
+}
+.card-one{
+    padding: 80px 100px;
+    background-color: rgb(221, 218, 218);
+}
+.section-three{
+    margin-bottom: 100px;
+}
+.card-one i{
+    font-size: 50px;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+}
+footer h1{
+    padding-top: 50px;
+}
